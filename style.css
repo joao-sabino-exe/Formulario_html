@@ -124,6 +124,7 @@ input, textarea{
     background-color: rgb(220, 245, 255);
     box-shadow: 1px 1px 3px black;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 #sexo_st:focus{
