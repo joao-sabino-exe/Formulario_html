@@ -1,0 +1,120 @@
+<!DOCTYPE html5>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+
+    <title>Formulário de programador</title>
+</head>
+
+<body>
+
+<form>
+    <fieldset>
+        
+        <div id="titulo">
+            <br/><br/>
+            <h1>Faça seu cadastro de programador</h1>
+            <h4>Complete com suas informações</h4>
+        </div>
+
+        <br/>
+
+
+        <div id="campos_nome">
+            
+            <label><strong>Nome: </strong></label>
+                <input type="text" name="nome" id="nome">
+
+            <label id="sobrenome_label"><strong>Sobrenome: </strong></label>
+                <input type="text" name="sobrenome" id="sobrenome">
+
+                <br/><br/>
+
+            <label><strong>E-mail: </strong></label>
+                <input type="email" name="email" id="email">
+
+            <label id="label_telefone"><strong>Telefone: </strong></label>
+            <input type="tel" name="telefone" id="telefone" required pattern="[0-9]{2}[0-9]{5}[0-9]{4}" placeholder="19 99999-9999">
+
+        </div>
+    
+        <br/>
+        
+        <div id="sexo">
+            <label><strong>Sexo: </strong></label>
+                    <br/>
+    
+                    <select id="sexo_st">
+                        <option selected disabled value="">Selecione</option>
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                        <option>Outro</option>
+                    </select>
+                       
+        </div>
+
+                    <br/>
+
+        <div id="div_senioridade">
+
+            <label><strong>Selecione seu nivel de conhecimento: </strong></label>
+            <br/>
+            
+                <label class="syle_senioridade1"><input type="radio" name="sexo" class="style_senioridade">Estagiario</label>
+            <br/>
+
+                <label class="syle_senioridade1"><input type="radio" name="sexo" class="style_senioridade">Junior</label>
+            <br/>
+
+                <label class="syle_senioridade1"><input type="radio" name="sexo" class="style_senioridade">Pleno</label>
+            <br/>
+
+                <label class="syle_senioridade1"><input type="radio" name="sexo" class="style_senioridade">Senior</label>
+            
+        </div>
+    
+
+  
+        <br/>
+
+
+    <div id="linguagens">
+        <label><strong>Selecione as linguagens que domina: </strong></label>
+        <br/>
+            <label class="check_hv">HTML<input type="checkbox"       name="checkbox" class="style_check"></label>
+            <label class="check_hv">CSS<input type="checkbox"        name="checkbox" class="style_check"></label>
+            <label class="check_hv">JavaScript<input type="checkbox" name="checkbox" class="style_check"></label>
+            <label class="check_hv">Python<input type="checkbox"     name="checkbox" class="style_check"></label>
+            <label class="check_hv">C<input type="checkbox"          name="checkbox" class="style_check"></label>
+            <label class="check_hv">C#<input type="checkbox"         name="checkbox" class="style_check"></label>
+            <label class="check_hv">C++<input type="checkbox"        name="checkbox" class="style_check"></label>
+            <label class="check_hv">JAVA<input type="checkbox"       name="checkbox" class="style_check"></label>
+            <br/>
+            <label class="check_hv">PHP<input type="checkbox"        name="checkbox" class="style_check"></label>
+    </div>
+
+        <br/>
+
+    <div id="textarea_div">
+        <label id="texto"><strong>Fale um pouco sobre sua experiência como DEV:</strong></label>
+            <br/>
+                
+        <textarea id="text_area" name="text_area" rows="10" cols="100"></textarea>
+                
+    </div>
+
+        <br/>
+
+    <div id="submit_div">
+        <input type="submit" name="submit" id="submit">
+    </div>    
+    </fieldset>
+</form>
+
+</body>
+
+
+</html>

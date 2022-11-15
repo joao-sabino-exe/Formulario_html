@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(27, 60, 99);
+}
+
+#titulo{
+    color: rgb(28, 73, 94);
+    margin-left: 88px;
+}
+
+fieldset{
+    min-width: 300px;
+    max-width: 700px;
+    min-height: 660px;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 10px;
+    background-color: skyblue;
+    border: 1px solid rgb(13, 28, 46);
+    transition: 0.15s;
+}
+
+input, textarea{
+    border-radius: 5px;
+    border: none;
+}
+
+#campos_nome{
+    list-style: none;
+    margin-left: 88px;
+}
+
+#nome{
+    width: 173px;
+    height: 22px;
+    transition: 0.5s;
+}
+
+#sobrenome{
+    width: 197px;
+    height: 22px;
+    transition: 0.5s;
+    margin-top: 5px;
+}
+
+#email{
+    width: 170px;
+    height: 22px;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+#telefone{
+    width: 200px;
+    height: 22px;
+    transition: 0.5s;
+    margin-top: 5px;
+}
+
+#nome:hover{
+    background-color: rgb(220, 245, 255);
+    box-shadow: 1px 1px 5px black;
+    transition: 0.5s;
+}
+
+#sobrenome:hover{
+    background-color: rgb(220, 245, 255);
+    box-shadow: 1px 1px 5px black;
+    transition: 0.5s;
+}
+
+#email:hover{
+    background-color: rgb(220, 245, 255);
+    box-shadow: 1px 1px 5px black;
+    transition: 0.5s;
+}
+
+#telefone:hover{
+    background-color: rgb(220, 245, 255);
+    box-shadow: 1px 1px 5px black;
+    transition: 0.5s;
+}
+
+#nome:focus{
+    background-color: rgb(220, 245, 255);
+    box-shadow: 1px 1px 5px black;
+    transition: 0.5s;
+}
+
+#sobrenome:focus{
+    background-color: rgb(220, 245, 255);
+    box-shadow: 1px 1px 5px black;
+    transition: 0.5s;
+}
+
+#email:focus{
+    background-color: rgb(220, 245, 255);
+    box-shadow: 1px 1px 5px black;
+    transition: 0.5s;
+}
+
+#telefone:focus{
+    background-color: rgb(220, 245, 255);
+    box-shadow: 1px 1px 5px black;
+    transition: 0.5s;
+}
+
+#sexo{
+    margin-left: 88px;
+}
+
+#sexo_st{
+    border-radius: 5px;
+    height: 25px;
+    transition: 0.5s;
+}
+
+#sexo_st:hover{
+    background-color: rgb(220, 245, 255);
+    box-shadow: 1px 1px 3px black;
+    transition: 0.3s;
+}
+
+#sexo_st:focus{
+    background-color: rgb(220, 245, 255);
+    box-shadow: 1px 1px 3px black;
+    transition: 0.3s;
+}
+
+#div_senioridade{
+    margin-left: 88px;
+}
+
+.style_senioridade{
+    margin-top: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.syle_senioridade1{
+    cursor: pointer;
+}
+
+#linguagens{
+    margin-left: 88px;
+}
+
+.style_check{
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+
+.check_hv{
+    cursor: pointer;
+}
+
+#textarea_div{
+    text-align: center;
+}
+
+#texto{
+    margin-right: 150px;
+}
+
+textarea{
+    max-width: 75%;
+    width: 75%;
+    transition: 0.5s;
+}
+
+textarea:hover{
+    background-color: rgb(220, 245, 255);
+    box-shadow: 1px 1px 5px black;
+    transition: 0.5s;
+}
+
+textarea:focus{
+    background-color: rgb(220, 245, 255);
+    box-shadow: 1px 1px 5px black;
+    transition: 0.5s;
+}
+
+
+#submit_div{
+    text-align: center;
+}
+
+
+#submit{
+    width: 100px;
+    height: 35px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    background-color: rgb(49, 135, 175);
+    color: white;
+    border-radius: 9px;
+    border: none;
+    transition: 0.5s;
+}
+
+#submit:hover{
+    transition: 0.5s;
+    background-color: rgb(40, 107, 138);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgb(66, 66, 66);
+}
